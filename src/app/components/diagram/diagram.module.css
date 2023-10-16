@@ -3,3 +3,10 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+.chart {
+    width: 1080px;
+    padding: 40px;
+    background-color: #FFF2FE;
+    border-radius: 27px;
+}
