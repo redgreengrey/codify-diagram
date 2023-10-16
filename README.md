@@ -17,8 +17,11 @@ npm run dev
 And then open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Deploy on Vercel
+## Also
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can go to https://codify-diagram.vercel.app/ and check it online
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## P.S.
+
+On Windows it looks ok, but on mac i don't see font, Naturally, there is no adaptive option,
+but it is not in the technical specifications, but for some reason there are fonts on the iPhone in Safari. I haven't done this yet
