@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 28px;
+    padding-bottom: 130px;
+    width: 380px;
+}
+
+.btnToggle {
+    font-family: var(--font-manrope);
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 380px;
+    height: 48px;
+    border-radius: 28px;
+    background: #fff;
+    border: 2px solid #000AFF;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+.current {
+    max-height: 48px;
+}
+
+.list {
+    background: #ffffff;
+    border: 2px solid #000AFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    margin-top: 47px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.listItem {
+    min-height: 30px;
+    background: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--font-manrope);
+    font-size: 24px;
+}
+
